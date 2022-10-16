@@ -11,6 +11,7 @@
          var email=localStorage.getItem("Email");
          var display=localStorage.getItem("Username");
          var password=localStorage.getItem("Passcode");
+         alert("Access accepted");
          }
     </script>
 
@@ -25,9 +26,9 @@
     </body>
        <script>
         function logout(){
-        localStorage.setItem("Email", null);
-        localStorage.setItem("Username", null);
-        localStorage.setItem("Passcode", null);
+        localStorage.removeItem("Email", null);
+        localStorage.removeItem("Username", null);
+        localStorage.removeItem("Passcode", null);
         location.replace("index.html")}
     </script>
 <html>
