@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+
+ <html>
+     <link rel=stylesheet type="text/css" href="style.css">
+     <header>
+         <title>Login|Pals</title>
+         <h1>Login to your Pals account</h1>
+         <marquee></marquee>
+    </header>
+    <div class="divloginform">
+    <form class="logInform" action="loggedin.html">
+    <label class="entry1">E-mail Address:</label><br>
+    <input class="Input" id="emailinput" placeholder="example@palrishabh.com" type="email" required/>
+    <br>
+    <label class="entry1">Passcode:</label><br>
+    <input type="password" class="Input" id="passcodeinput" placeholder="1893265" required></input>
+    <br><br>
+    <input type="submit" class="enter" onclick="check()">
+    </form>
+    </div>
+    <script>
+    function check(){
+    var email=document.getElementById("emailinput").value;
+    var password=document.getElementById("passcodeinput").value;
+
+    if(email=="palrishabh783@gmail.com"){
+    if (password=="801540213"){
+     localStorage.setItem("Username", "Rishabh Pal");
+     localStorage.setItem("Passcode", password);
+     localStorage.setItem("Email", email);
+    }
+    else{
+    document.getElementById("passcodeinput").value="";
+    alert("The passcode you have provided was invalid!");
+    }
+     }
+     else if(email=="rishita.pal556@gmail.com"){
+     if(password=="Rishita556"){
+     localStorage.setItem("Username", "Rishita Pal");
+     localStorage.setItem("Passcode", password);
+     localStorage.setItem("Email", email);
+     }
+     else{
+     document.getElementById("passcodeinput").value="";
+     alert("The password you've provided is not valid, try again!")}
+     }
+     else if(email=="palram2711@gmail.com"){
+     if(password=="ShriSidhhi9"){
+     localStorage.setItem("Username", username);
+     localStorage.setItem("Passcode", password);
+     localStorage.setItem("Email", email);
+     }
+     else{
+     document.getElementById("passcodeinput").value="";
+     alert("Password was invalid!")}
+     }
+     else{
+     document.getElementById("emailinput").value="";
+     alert("You are not registered, contact help@palrishabh.com for any help");
+     }}
+    </script>
+</html>
