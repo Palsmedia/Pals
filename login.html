@@ -1,6 +1,8 @@
  <!DOCTYPE html>
 
  <html>
+  <script>function move(){
+   location.replace("loggenin.html")}</script>
      <link rel=stylesheet type="text/css" href="style.css">
      <header>
          <title>Login|Pals</title>
@@ -17,8 +19,8 @@
     <br><br>
     <input type="submit" class="enter" onclick="check()">
     </form>
-    </div>
-<button onclick="location.replace("loggedin.html")">Already signed in? Click here</button>
+    </div><br>
+<button onclick="move()">Already signed in? Click here</button>
     <script>
     function check(){
     var email=document.getElementById("emailinput").value;
