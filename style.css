@@ -1,4 +1,4 @@
-html{cursor: url(cursor.png);} 
+html{cursor: url("cursor.png");} 
 body{
     margin:0;
     padding:0;
@@ -98,4 +98,5 @@ p::selection{
     color: black;
 }
 image.imageButton1:hover{
+    background: url("Image--THREEHOVERED.PNG") no-repeat;
 }
