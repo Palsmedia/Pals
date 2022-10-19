@@ -107,9 +107,9 @@ width: 24px;}
 .Parent{
 border: 0px;
 padding: 2rem 2rem;
-text-align: center;}
+text-align: left;}
 .Child{
 display: inline-block;
-border: 2px solid red;
+border: 2px solid white;
 padding: 1rem 1rem;
-vertical-align: middle;}
+vertical-align: left;}
