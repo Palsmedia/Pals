@@ -103,3 +103,13 @@ image.imageButton1:hover{
 #Selectiontriple{
 height: 24px;
 width: 24px;}
+
+.Parent{
+border: 0px;
+padding: 2rem 2rem;
+text-align: center;}
+.Child{
+display: inline-block;
+border: 2px solid red;
+padding: 1rem 1rem;
+vertical-align: middle;}
