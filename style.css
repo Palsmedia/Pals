@@ -100,3 +100,6 @@ p::selection{
 image.imageButton1:hover{
     background: url("Image--THREEHOVERED.PNG") no-repeat;
 }
+#Selectiontriple{
+height: 24px;
+width: 24px;}
