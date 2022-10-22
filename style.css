@@ -97,7 +97,7 @@ p::selection{
     background: antiquewhite;
     color: black;
 }
-image.imageButton1:hover{
+imageButton.image:hover{
     background: url("Image--THREEHOVERED.PNG") no-repeat;
 }
 #Selectiontriple{
@@ -116,5 +116,6 @@ vertical-align: left;}
 #news1btn{
 background-color: rgba(0,0,0,0);}
 #projectImage1{
-height:80px;
-width: 80px;}
+height:500px;
+width: 500px;
+padding: 2rem 2rem;}
